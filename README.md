@@ -47,10 +47,13 @@ This project covers various interactive features of the Herokuapp test site usin
    cd playwright-the-internet-tests
 
 2. **Install Dependencies**
+    ```bash
     npm install
 
 3. **Run Tests**
+    ```bash
     npx playwright test
 
 4. **Show HTML Report**
+    ```bash
     npx playwright show-report
