@@ -46,14 +46,22 @@ This project covers various interactive features of the Herokuapp test site usin
    git clone https://github.com/ravigitgit/playwright-the-internet-tests.git
    cd playwright-the-internet-tests
 
-2. **Install Dependencies**
+2. **Install project dependencies**
     ```bash
     npm install
 
-3. **Run Tests**
+3. **Install Playwright browsers with dependencies**
+    ```bash
+    npx playwright install --with-deps
+
+4. **Run Tests**
     ```bash
     npx playwright test
+    # or
+    npm run test
 
-4. **Show HTML Report**
+5. **Show HTML Report**
     ```bash
     npx playwright show-report
+    # or
+    npm run test:report
