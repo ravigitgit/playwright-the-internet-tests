@@ -28,6 +28,8 @@ This project covers various interactive features of the Herokuapp test site usin
 
 ## 📂 Project Structure
 
+<pre> \`\`\` 
+
 ├── tests/
 │ ├── addRemove.spec.ts
 │ ├── basicAuth.spec.ts
@@ -36,6 +38,8 @@ This project covers various interactive features of the Herokuapp test site usin
 │ └── configuration.ts
 ├── package.json
 └── README.md
+
+\`\`\` </pre>
 
 ---
 
@@ -50,7 +54,7 @@ This project covers various interactive features of the Herokuapp test site usin
     ```bash
     npm install
 
-3. **Install Playwright browsers with dependencies**
+3. **Install Playwright browsers with system dependencies**
     ```bash
     npx playwright install --with-deps
 
