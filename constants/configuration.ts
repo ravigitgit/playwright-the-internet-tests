@@ -5,3 +5,8 @@ export const URLs = {
   BASIC_AUTH: '/basic_auth',
   BROKEN_IMAGES: '/broken_images'
 };
+
+export const Values = {
+  NAME_PREFIX: 'Name_',
+  DESCRIPTION_PREFIX: 'Desc_',
+};

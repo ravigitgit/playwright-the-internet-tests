@@ -32,16 +32,16 @@ This project covers various interactive features of the Herokuapp test site usin
 
 ├── constants/
 │ └── configuration.ts
-├── pageObjects/
-│ ├── addRemove.ts
+├── pages/
+│ ├── pageObjects.ts
 │ └── locators.ts
 ├── tests/
 │ ├── TC01-addRemove.spec.ts
 │ ├── TC02-basicAuth.spec.ts
 │ └── TC03-brokenImages.spec.ts
-├── utility/
+├── utils/
 │ ├── credentials.ts
-│ └── utility.ts
+│ └── generalUtils.ts
 ├── package.json
 ├── playwright.config.ts
 └── README.md
