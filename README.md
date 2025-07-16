@@ -76,3 +76,9 @@ This project covers various interactive features of the Herokuapp test site usin
     npx playwright show-report
     # or
     npm run test:report
+
+6. **View Allure Report (GitHub Pages Hosted)**
+Allure test reports are automatically generated and deployed via GitHub Actions.
+
+📎 Live Report URL:
+👉 https://ravigitgit.github.io/playwright-the-internet-tests/
